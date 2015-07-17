@@ -13,15 +13,17 @@ Homepage: http://electrum-doged.space/
 
 1.a) GETTING STARTED WITH UBUNTU/LINUX
 ------------------
+sudo apt-get update
+
 sudo apt-get install tor
 
-now go to /etc/tor/ and edit the torrc file. 
+now go to /etc/tor/ and edit the torrc file. (you can use sudo nano torrc)
 
 you just need to remove the # before the line that starts with SocksPort 9050
 
-then save and go back to command prompt and type sudo service tor restart.
+then save torrc, and go back to command prompt and type sudo service tor restart.
 
-now we install the electrum wallet
+now we install the electrum wallet!
 
 sudo apt-get install git pyqt4-dev-tools python-pip python-dev python-slowaes
 
