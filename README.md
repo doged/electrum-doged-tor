@@ -67,7 +67,7 @@ https://github.com/doged/electrum-doged/archive/master.zip
 
 pyrcc4 icons.qrc -o gui/qt/icons_rc.py
 
-py -m pip install pip pyasn1 pyasn1-modules pbkdf2 tlslite qrcode ecdsa ltc_scrypt
+py -m pip install pip pyasn1 pyasn1-modules pbkdf2 tlslite qrcode ecdsa ltc_scrypt pyrcc
 
 py setup.py install
 
