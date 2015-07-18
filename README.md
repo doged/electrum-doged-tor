@@ -25,7 +25,7 @@ then save torrc, and go back to command prompt and type sudo service tor restart
 
 now we install the electrum wallet!
 
-sudo apt-get install git pyqt4-dev-tools python-pip python-dev python-slowaes
+sudo apt-get install git pyqt4-dev-tools python-pip python-dev python-slowaes python-pip
 
 sudo pip install pyasn1 pyasn1-modules pbkdf2 tlslite qrcode
 
