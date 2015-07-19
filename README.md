@@ -4,7 +4,7 @@ lightweight DogecoinDark client for connecting
 ------------------------------------------------
 to the DOGED Tor Electrum Server
 ------------------------------------------------
-![Electrum-DOGED](https://raw.githubusercontent.com/doged/electrum-doged-tor/master/electrumlog.png)
+![Electrum-DOGED](https://raw.githubusercontent.com/doged/electrum-doged-tor/master/electrumlogo.png)
 
 Licence: GNU GPL v3
 
