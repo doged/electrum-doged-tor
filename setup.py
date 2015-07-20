@@ -65,6 +65,6 @@ setup(
     author="dogedDEV",
     author_email="dogedcoin@twitter",
     license="GNU GPLv3",
-    url="http://electrum-doged.space",
+    url="http://electrum-doged.space / http://dogedzaikebne3va.onion",
     long_description="""Lightweight DogecoinDark Wallet"""
 )
