@@ -77,6 +77,26 @@ py setup.py install
 
 py electrum-doged
 
+1c) INSTALLING WITH MAC OSX
+-----------------
+
+install python if you dont already have it.
+
+https://www.python.org/ftp/python/2.7.10/python-2.7.10-macosx10.6.pkg
+
+pip intall slowaes
+
+python setup.py build
+
+Modify electrum-doged and change python2 to python in the first line
+
+sudo python setup.py install
+
+then install tor and modify the torrc file, by removing the # from in front of SocksProxy, and change the 9150 to 9050.
+
+restart tor, then launch wallet by 
+
+py electrum-doged
 
 
 2. HOW OFFICIAL PACKAGES ARE CREATED
